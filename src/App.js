@@ -27,12 +27,7 @@ function App() {
   const [city, setCity] = useState("")
   const [weather, setWeather] = useState({})
 
-  /*.then(response)() {
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
-        return response;
-    }) */
+
 
   const search = evt => {
     if (evt.key === "Enter") {
@@ -84,23 +79,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-  
-<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
-*/
